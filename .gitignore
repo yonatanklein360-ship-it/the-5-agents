@@ -1,2 +1,7 @@
 # Claude Code local settings (machine-specific, not shared)
 .claude/settings.local.json
+
+# Environment variables / secrets — never commit real keys
+.env
+.env.local
+.env.*.local
